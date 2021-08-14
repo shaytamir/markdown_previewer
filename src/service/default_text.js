@@ -1,3 +1,5 @@
+import { s3_imgUrl } from "../config.json";
+
 export const defaultText = `
 # Welcome to shaysel's React Markdown Previewer!
 ## Shaysel's Editor
@@ -44,5 +46,5 @@ I think you should use an \`<addr>\` element here instead.
 Oh and not forgeting quotes:
 > Dorothy followed her through many of the beautiful rooms in her castle.
 
-![Markdown Logo](/images/earth.png)
+![Markdown Logo](${s3_imgUrl}/earth.png)
 `;
