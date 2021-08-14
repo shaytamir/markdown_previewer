@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$color_click:#9d9d9d97;
+
+body {
+
+    background-color: #38654e63;
+}
+
+.App {
+    display: flex;
+
+    #editor_div {
+        width: 35%;
+        // height: 100%;
+        // background-color: red;
+
+        h3 {
+            height: 10%;
+        }
+
+        .editor {
+            background-color: transparent;
+            // color: transparent;
+            outline: none !important;
+            // min-height: 100px;
+            width: 100%;
+            height: 90%;
+        }
+    }
+
+    #preview {
+        width: 65%;
+        background-color: blue;
+
+        #previews {
+            white-space: pre-line;
+        }
+    }
+}
