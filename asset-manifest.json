@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/shaytamir/markdown_previewer/static/css/main.75f6ea65.chunk.css",
-    "main.js": "/shaytamir/markdown_previewer/static/js/main.eb11b0ff.chunk.js",
-    "main.js.map": "/shaytamir/markdown_previewer/static/js/main.eb11b0ff.chunk.js.map",
-    "runtime-main.js": "/shaytamir/markdown_previewer/static/js/runtime-main.ff189371.js",
-    "runtime-main.js.map": "/shaytamir/markdown_previewer/static/js/runtime-main.ff189371.js.map",
-    "static/js/2.8b259dce.chunk.js": "/shaytamir/markdown_previewer/static/js/2.8b259dce.chunk.js",
-    "static/js/2.8b259dce.chunk.js.map": "/shaytamir/markdown_previewer/static/js/2.8b259dce.chunk.js.map",
-    "static/js/3.b47f6d15.chunk.js": "/shaytamir/markdown_previewer/static/js/3.b47f6d15.chunk.js",
-    "static/js/3.b47f6d15.chunk.js.map": "/shaytamir/markdown_previewer/static/js/3.b47f6d15.chunk.js.map",
-    "index.html": "/shaytamir/markdown_previewer/index.html",
-    "static/css/main.75f6ea65.chunk.css.map": "/shaytamir/markdown_previewer/static/css/main.75f6ea65.chunk.css.map",
-    "static/js/2.8b259dce.chunk.js.LICENSE.txt": "/shaytamir/markdown_previewer/static/js/2.8b259dce.chunk.js.LICENSE.txt",
-    "static/media/default_text.f246efff.txt": "/shaytamir/markdown_previewer/static/media/default_text.f246efff.txt"
+    "main.css": "//github.com/shaytamir/markdown_previewer/static/css/main.75f6ea65.chunk.css",
+    "main.js": "//github.com/shaytamir/markdown_previewer/static/js/main.eb11b0ff.chunk.js",
+    "main.js.map": "//github.com/shaytamir/markdown_previewer/static/js/main.eb11b0ff.chunk.js.map",
+    "runtime-main.js": "//github.com/shaytamir/markdown_previewer/static/js/runtime-main.f2d2e7dc.js",
+    "runtime-main.js.map": "//github.com/shaytamir/markdown_previewer/static/js/runtime-main.f2d2e7dc.js.map",
+    "static/js/2.8b259dce.chunk.js": "//github.com/shaytamir/markdown_previewer/static/js/2.8b259dce.chunk.js",
+    "static/js/2.8b259dce.chunk.js.map": "//github.com/shaytamir/markdown_previewer/static/js/2.8b259dce.chunk.js.map",
+    "static/js/3.b47f6d15.chunk.js": "//github.com/shaytamir/markdown_previewer/static/js/3.b47f6d15.chunk.js",
+    "static/js/3.b47f6d15.chunk.js.map": "//github.com/shaytamir/markdown_previewer/static/js/3.b47f6d15.chunk.js.map",
+    "index.html": "//github.com/shaytamir/markdown_previewer/index.html",
+    "static/css/main.75f6ea65.chunk.css.map": "//github.com/shaytamir/markdown_previewer/static/css/main.75f6ea65.chunk.css.map",
+    "static/js/2.8b259dce.chunk.js.LICENSE.txt": "//github.com/shaytamir/markdown_previewer/static/js/2.8b259dce.chunk.js.LICENSE.txt",
+    "static/media/default_text.f246efff.txt": "//github.com/shaytamir/markdown_previewer/static/media/default_text.f246efff.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ff189371.js",
+    "static/js/runtime-main.f2d2e7dc.js",
     "static/js/2.8b259dce.chunk.js",
     "static/css/main.75f6ea65.chunk.css",
     "static/js/main.eb11b0ff.chunk.js"
