@@ -1,7 +1,7 @@
 {
   "name": "markdown_previewer",
   "version": "0.1.0",
-  "homepage": "https://github.com/shaytamir/markdown_previewer",
+  "homepage": "http://https://github.com/shaytamir/markdown_previewer",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
