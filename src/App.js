@@ -11,6 +11,8 @@ import { defaultText } from "./service/default_text.js";
 function App() {
   // const [defaultText, setDefaultText] = useState("Loading...");
   const [HTMLtext, setHTMLtext] = useState("loading.. ..");
+  const [maximaized, setMaximaized] = useState(false);
+
   useEffect(() => {
     setHTMLtext(defaultText);
     // fetch(Text)
@@ -28,8 +30,12 @@ function App() {
         set={(content) => {
           setHTMLtext(content);
         }}
+        max={maximaized}
+        setMax={(e) => {
+          setMaximaized(e);
+        }}
       />
-      <Preview text={HTMLtext} />
+      <Preview text={HTMLtext} max={maximaized} />
       {/*  */}
       {/*  */}
     </div>

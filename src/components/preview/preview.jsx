@@ -2,28 +2,22 @@ import React from "react";
 import marked from "marked";
 
 function Preview(props) {
-  const { text } = props;
+  const { text, max } = props;
 
   marked.setOptions({
-    // highlight: function (code, lang, callback) {
-    //   require("pygmentize-bundled")(
-    //     { lang: lang, format: "html" },
-    //     code,
-    //     function (err, result) {
-    //       callback(err, result.toString());
-    //     }
-    //   );
-    // },
     breaks: true,
-    // headerIds: true,
-    // gfm: true,
-    // headerPrefix: true,
-    // smartLists: true,
   });
 
-  console.log(text);
+  const editorWingth = max ? "none" : "block";
+
   return (
-    <div id="preview" dangerouslySetInnerHTML={{ __html: marked(text) }}></div>
+    <div id="preview_div" style={{ display: editorWingth }}>
+      <h3>Preview</h3>
+      <div
+        id="preview"
+        dangerouslySetInnerHTML={{ __html: marked(text) }}
+      ></div>
+    </div>
   );
 }
 
