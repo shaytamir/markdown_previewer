@@ -1,4 +1,6 @@
 import React from "react";
+import { s3_imgUrl } from "../../config.json";
+
 // import Text from "../../service/default_text.txt";
 
 function Editor(props) {
@@ -13,7 +15,7 @@ function Editor(props) {
         <h3></h3>
         <h3>Editor</h3>
         <img
-          src={`/images/icons/${max ? "min" : "max"}.png`}
+          src={`${s3_imgUrl}/icons/${max ? "min" : "max"}.png`}
           alt="maximize"
           onClick={(e) => {
             setMax(!max);

@@ -46,5 +46,5 @@ I think you should use an \`<addr>\` element here instead.
 Oh and not forgeting quotes:
 > Dorothy followed her through many of the beautiful rooms in her castle.
 
-![Markdown Logo](${s3_imgUrl}/earth.png)
+![earth atlas](${s3_imgUrl}/earth.png)
 `;
